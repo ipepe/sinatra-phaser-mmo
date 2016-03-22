@@ -1,7 +1,6 @@
 WALK_TIMER = 400
 TILE_SIZE = 16
-class GameState
-
+window.GameState = class GameState
   constructor: ->
     @game = window.GameApp
 
@@ -120,6 +119,3 @@ class GameState
         groundTile.properties.walkable == true && sceneTile.properties.walkable == true
     else
       false
-
-
-window.GameApp = new Phaser.Game( 320, 320, Phaser.AUTO , 'game_div', new GameState(), false, false )
