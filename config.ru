@@ -6,7 +6,7 @@ Bundler.require
 require './app'
 
 set :run, false
-set :environment, :development
+set :environment, :production
 
 run Sinatra::Application
 

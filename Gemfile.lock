@@ -6,6 +6,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     execjs (2.6.0)
+    puma (2.14.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -20,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script!
+  puma!
   rack!
   sinatra!
 

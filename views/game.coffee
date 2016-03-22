@@ -32,19 +32,20 @@ class GameState
     padImg.fixedToCamera = true;
     @game.world.bringToTop padImg
     @setupFullscreen()
-    @createPlayerGfx('developer', 'chara0', 96, 96)
+    @player = @createPlayerGfx('developer', 'chara0', 96, 96)
+    @game.camera.follow(@player)
 
   createPlayerGfx: (playerNameObj, gfxName, xCord, yCord) ->
     @player = @game.add.sprite(24, 16, gfxName)
     a = 0
     b = 3
-    @player.animations.add 'walk_down', [ 0 + a * 3, 1 + a * 3, 2 + a * 3 ], 12, true, true
+    @player.animations.add 'walk_down', [ 0 + a * 3, 1 + a * 3, 2 + a * 3 ], 6, true, true
     @player.animations.add 'idle_down', [ 1 + a * 3 ], 1, false, true
-    @player.animations.add 'walk_left', [ 3 * b + a * 3, 1 + 3 * b + a * 3, 2 + 3 * b + a * 3 ], 12, true, true
+    @player.animations.add 'walk_left', [ 3 * b + a * 3, 1 + 3 * b + a * 3, 2 + 3 * b + a * 3 ], 6, true, true
     @player.animations.add 'idle_left', [ 1 + 3 * b + a * 3 ], 1, false, true
-    @player.animations.add 'walk_right',[ 6 * b + a * 3, 6 * b + a * 3 + 1, 6 * b + a * 3 + 2 ], 12, true, true
+    @player.animations.add 'walk_right',[ 6 * b + a * 3, 6 * b + a * 3 + 1, 6 * b + a * 3 + 2 ], 6, true, true
     @player.animations.add 'idle_right',[ 6 * b + a * 3 + 1 ], 1, false, true
-    @player.animations.add 'walk_up',   [ 9 * b + a * 3, 9 * b + a * 3 + 1, 9 * b + a * 3 + 2 ], 12, true, true
+    @player.animations.add 'walk_up',   [ 9 * b + a * 3, 9 * b + a * 3 + 1, 9 * b + a * 3 + 2 ], 6, true, true
     @player.animations.add 'idle_up',   [ 9 * b + a * 3 + 1 ], 1, false, true
 
     @player.animations.play 'idle_down'
