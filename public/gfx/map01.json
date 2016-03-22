@@ -60,43 +60,43 @@
                 },
              "100":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "101":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "102":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "103":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "104":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "105":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "106":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "107":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "108":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "109":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "11":
                 {
@@ -104,43 +104,43 @@
                 },
              "110":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "111":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "112":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "113":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "114":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "115":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "116":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "117":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "118":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "119":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "12":
                 {
@@ -548,43 +548,43 @@
                 },
              "210":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "211":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "212":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "213":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "214":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "215":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "216":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "217":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "218":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "219":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "22":
                 {
@@ -592,43 +592,43 @@
                 },
              "220":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "221":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "222":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "223":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "224":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "225":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "226":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "227":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "228":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "229":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "23":
                 {
@@ -636,43 +636,43 @@
                 },
              "230":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "231":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "232":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "233":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "234":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "235":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "236":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "237":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "238":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "239":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "24":
                 {
@@ -680,43 +680,43 @@
                 },
              "240":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "241":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "242":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "243":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "244":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "245":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "246":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "247":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "248":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "249":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "25":
                 {
@@ -724,7 +724,7 @@
                 },
              "250":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "251":
                 {
@@ -732,35 +732,35 @@
                 },
              "252":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "253":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "254":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "255":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "256":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "257":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "258":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "259":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "26":
                 {
@@ -768,43 +768,43 @@
                 },
              "260":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "261":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "262":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "263":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "264":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "265":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "266":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "267":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "268":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "269":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "27":
                 {
@@ -812,43 +812,43 @@
                 },
              "270":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "271":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "272":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "273":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "274":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "275":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "276":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "277":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "278":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "279":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "28":
                 {
@@ -856,43 +856,43 @@
                 },
              "280":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "281":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "282":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "283":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "284":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "285":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "286":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "287":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "288":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "289":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "29":
                 {
@@ -900,43 +900,43 @@
                 },
              "290":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "291":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "292":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "293":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "294":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "295":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "296":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "297":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "298":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "299":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "3":
                 {
@@ -948,43 +948,43 @@
                 },
              "300":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "301":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "302":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "303":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "304":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "305":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "306":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "307":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "308":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "309":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "31":
                 {
@@ -992,43 +992,43 @@
                 },
              "310":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "311":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "312":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "313":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "314":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "315":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "316":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "317":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "318":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "319":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "32":
                 {
@@ -1068,43 +1068,43 @@
                 },
              "40":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "41":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "42":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "43":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "44":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "45":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "46":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "47":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "48":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "49":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "5":
                 {
@@ -1112,43 +1112,43 @@
                 },
              "50":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "51":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "52":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "53":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "54":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "55":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "56":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "57":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "58":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "59":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "6":
                 {
@@ -1156,43 +1156,43 @@
                 },
              "60":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "61":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "62":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "63":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "64":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "65":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "66":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "67":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "68":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "69":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "7":
                 {
@@ -1200,43 +1200,43 @@
                 },
              "70":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "71":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "72":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "73":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "74":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "75":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "76":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "77":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "78":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "79":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "8":
                 {
@@ -1244,43 +1244,43 @@
                 },
              "80":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "81":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "82":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "83":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "84":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "85":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "86":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "87":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "88":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "89":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "9":
                 {
@@ -1288,43 +1288,43 @@
                 },
              "90":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "91":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "92":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "93":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "94":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "95":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "96":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "97":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "98":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 },
              "99":
                 {
-                 "walkable":"false"
+                 "collides":"true"
                 }
             },
          "tilewidth":16

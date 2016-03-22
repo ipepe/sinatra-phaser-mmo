@@ -22,7 +22,7 @@ window.GameState = class GameState
     @scale.maxHeight = 2048;
     @scale.pageAlignHorizontally = true;
     @scale.pageAlignVertically = true;
-    @scale.setScreenSize(true);
+    @scale.refresh()
 
   create: ->
     @map = @add.tiledmap('worldmap');
@@ -110,6 +110,7 @@ window.GameState = class GameState
   isTileWalkable: (cordX, cordY) ->
     tileX = cordX / 16
     tileY = cordY / 16
+    console.log @map.getTile(tileX, tileY, @map.layers[0])
     groundTile = @map.getTile(tileX, tileY, @map.layers[0])
     sceneTile = @map.getTile(tileX, tileY, @map.layers[1])
     if groundTile
