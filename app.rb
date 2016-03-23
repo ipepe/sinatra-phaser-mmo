@@ -21,31 +21,29 @@ def read_message(msg)
 end
 
 get '/' do
-  if request.websocket?
-    request.websocket do |ws|
-      ws.onopen do |msg|
-        settings.sockets << ws
-      end
-      ws.onmessage do |msg|
-        event, attributes = read_message(msg)
-        if event == 'player_create'
-          settings.sockets_to_players[attributes['name']] = ws
-        end
-        send_event(event, attributes)
-      end
-      ws.onclose do
-        unless settings.sockets_to_players.key(ws).nil?
-          send_event('player_destroy', { name: settings.sockets_to_players.key(ws), _destroy: true})
-        end
-        settings.sockets.delete(ws)
-      end
-    end
-  else
-    redirect '/index.html'
-  end
+  redirect '/index.html'
 end
 
-
+get '/web.socket' do
+  request.websocket do |ws|
+    ws.onopen do |msg|
+      settings.sockets << ws
+    end
+    ws.onmessage do |msg|
+      event, attributes = read_message(msg)
+      if event == 'player_create'
+        settings.sockets_to_players[attributes['name']] = ws
+      end
+      send_event(event, attributes)
+    end
+    ws.onclose do
+      unless settings.sockets_to_players.key(ws).nil?
+        send_event('player_destroy', { name: settings.sockets_to_players.key(ws), _destroy: true})
+      end
+      settings.sockets.delete(ws)
+    end
+  end
+end
 
 get '/game.js' do
   coffee :game
