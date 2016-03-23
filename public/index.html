@@ -12,8 +12,10 @@
  <script src="js/phaser.min.js"></script>
  <script src="js/phaser-tiled.js"></script>
  <script src="game.js"></script>
+ <script src="isocket.js"></script>
  <script>
-     wsConnection = new WebSocket('ws://' + window.location.host + window.location.pathname);
-     GameApp = new Phaser.Game( 320, 320, Phaser.AUTO , 'game_div', new GameState(wsConnection) );
+     App = {};
+     App.ws = new iSocket();
+     App.game = new Phaser.Game( 320, 320, Phaser.AUTO , 'game_div', new GameState(App.ws));
  </script>
  </html>
