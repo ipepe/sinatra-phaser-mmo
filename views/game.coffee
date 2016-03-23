@@ -35,6 +35,7 @@ class window.GameState
     @game.world.bringToTop padImg
     @setupFullscreen()
     @player_name = 'Player' + Math.floor(Math.random()*1000)
+    @player_name = prompt("Please enter your name.", @playerName ) || @playerName
     @player = @createPlayerGfx(@player_name, 96, 96)
     @game.camera.follow(@player)
     @websocket.send 'player_create',
