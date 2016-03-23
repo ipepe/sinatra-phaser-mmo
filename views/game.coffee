@@ -33,9 +33,9 @@ class window.GameState
     padImg = @game.add.sprite(220, 220, 'pad')
     padImg.fixedToCamera = true;
     @game.world.bringToTop padImg
-    @setupFullscreen()
     @player_name = 'Player' + Math.floor(Math.random()*1000)
-    @player_name = prompt("Please enter your name.", @playerName ) || @playerName
+    @setupFullscreen()
+    @player_name = prompt("Please enter your name.", @player_name) || @player_name
     @player = @createPlayerGfx(@player_name, 96, 96)
     @game.camera.follow(@player)
     @websocket.send 'player_create',
@@ -72,8 +72,6 @@ class window.GameState
         @remote_players[attributes.name] = @createPlayerGfx(attributes.name, attributes.x, attributes.y)
 
   createPlayerGfx: (player_name, x_cord, y_cord) ->
-    console.log('createplayergfx', arguments)
-    alert(player_name) if !x_cord || !y_cord
     player = @game.add.sprite(96, 96, 'chara0')
     a = 0
     b = 3
