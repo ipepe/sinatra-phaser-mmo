@@ -1,8 +1,12 @@
 WALK_TIMER = 400
 TILE_SIZE = 16
+
 window.GameState = class GameState
-  constructor: ->
+  webSocketConnection: null
+
+  constructor: (webSocketConnection) ->
     @game = window.GameApp
+    @webSocketConnection = webSocketConnection
 
   preload: ->
     @add.plugin(Phaser.Plugin.Tiled)
@@ -11,7 +15,7 @@ window.GameState = class GameState
 
     @cursors = @input.keyboard.createCursorKeys();
     @game.stage.smoothed = false;
-    #import map
+
     @cacheKey = Phaser.Plugin.Tiled.utils.cacheKey;
     @game.load.tiledmap( @cacheKey('worldmap', 'tiledmap'), 'gfx/map01.json', null, Phaser.Tilemap.TILED_JSON);
     @game.load.image(    @cacheKey('worldmap', 'tileset', 'map01'), 'gfx/map01.gif');
@@ -31,7 +35,7 @@ window.GameState = class GameState
     padImg.fixedToCamera = true;
     @game.world.bringToTop padImg
     @setupFullscreen()
-    @player = @createPlayerGfx('developer', 'chara0', 96, 96)
+    @player = @createPlayerGfx('Player' + Math.floor(Math.random()*1000), 'chara0', 96, 96)
     @game.camera.follow(@player)
 
   createPlayerGfx: (playerNameObj, gfxName, xCord, yCord) ->

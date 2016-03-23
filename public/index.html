@@ -13,6 +13,7 @@
  <script src="js/phaser-tiled.js"></script>
  <script src="game.js"></script>
  <script>
-GameApp = new Phaser.Game( 320, 320, Phaser.AUTO , 'game_div', new GameState() );
+     wsConnection = new WebSocket('ws://' + window.location.host + window.location.pathname);
+     GameApp = new Phaser.Game( 320, 320, Phaser.AUTO , 'game_div', new GameState(wsConnection) );
  </script>
  </html>
