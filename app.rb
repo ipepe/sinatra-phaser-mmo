@@ -3,7 +3,6 @@ require 'sinatra-websocket'
 require 'json'
 require 'coffee-script'
 require 'tilt/coffee'
-require 'pry'
 
 set :server, 'thin'
 set :sockets, []
