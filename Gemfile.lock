@@ -12,7 +12,6 @@ GEM
       eventmachine (>= 0.12.9)
     eventmachine (1.2.0.1)
     execjs (2.6.0)
-    puma (2.14.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -35,7 +34,6 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script!
-  puma!
   rack!
   sinatra!
   sinatra-websocket!
