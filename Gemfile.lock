@@ -5,14 +5,14 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     daemons (1.2.3)
     em-websocket (0.3.8)
       addressable (>= 2.1.1)
       eventmachine (>= 0.12.9)
     eventmachine (1.2.0.1)
     execjs (2.6.0)
-    rack (1.6.4)
+    rack (1.5.2)
     rack-protection (1.5.3)
       rack
     sinatra (1.4.7)
@@ -34,7 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script!
-  rack!
+  rack (= 1.5.2)!
   sinatra!
   sinatra-websocket!
 
