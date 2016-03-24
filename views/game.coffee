@@ -1,4 +1,4 @@
-WALK_TIMER = 400
+WALK_TIMER = 300
 TILE_SIZE = 16
 
 class window.GameState
@@ -102,7 +102,7 @@ class window.GameState
     return player
 
   update: ->
-    if !@player.isMoving
+    if !@player?.isMoving
       if @game.input.activePointer.isDown
         clickX = @game.input.activePointer.x - 270
         clickY = @game.input.activePointer.y - 270
