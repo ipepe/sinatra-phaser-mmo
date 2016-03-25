@@ -6,7 +6,7 @@ class window.iSocket
     if address
       @_address = address
     else
-      @_address = 'ws://' + window.location.host + '/web.socket'
+      @_address = "ws://#{window.location.host.split(':')[0]}:8080"
     @_socket = new WebSocket(@_address)
     @_hookOntoSocket()
 
