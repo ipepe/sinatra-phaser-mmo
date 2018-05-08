@@ -1,11 +1,8 @@
+# WARNING! THIS PROJECT IS NO LONGER MAINTAINED!
+Warning! This project has known security vulnerabilities detected!
+
 # sinatra-phaser-mmo
-
-# openshift
-repo location:
-
-```ssh://56f3244d2d52710af900015b@mmo-ipepe.rhcloud.com/~/git/mmo.git/```
-
-# openshift requirements
+## openshift requirements
 
 Openshift requires websocket to be on diffrent port, theres a need to refactor code:
 
